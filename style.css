@@ -1,0 +1,40 @@
+/* style.css */
+body {
+    text-align: center;
+    background: linear-gradient(to right, rgb(88, 19, 134), rgb(60, 61, 80));
+    font-family: 'Trebuchet MS';
+    color: rgb(226, 226, 226);
+  }
+  
+  img {
+    border-radius: 75px;
+    margin-top: 20px;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(17, 10, 10);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+  }
